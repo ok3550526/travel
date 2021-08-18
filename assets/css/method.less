@@ -1,0 +1,101 @@
+// header
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #e5e5e5;
+    .headericon{
+        padding: 4vw;
+        
+    }
+
+    .title{
+        position: relative;
+        width: 66%;
+
+        h6{
+            font-size: 6.5vw;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+
+        }
+    }
+}
+
+// goto
+.goto{
+    .top{
+        text-align: center;
+        .swiper-slide{
+            padding: 3vw 3vw;
+            border-radius: 50px;
+            background: transparent;
+            font-size: 4vw;
+            color: #000;
+        }
+    }
+    .bottom{
+        width: 100%;
+        padding-bottom: 4vw;
+
+        .swiper-container{
+            width: 100%;
+
+            .swiper-wrapper{
+                width: 100%;
+
+                .swiper-slide{
+                    width: 100% !important;
+                    padding-bottom: 43%;
+
+                    .item{
+                        position: relative;
+                        width: 70%;
+            
+                        img{
+                            width: 100%;
+                        }
+                        ul{
+                            margin: 0 auto;
+            
+                            li{
+                                padding: 5vw;
+                                width: 80%;
+                                position: absolute;
+                                left:50%;
+                                bottom: 0;
+                                transform: translate(-50%,50%);
+                                border-radius: 10px;
+                                background: #fff;
+                                box-shadow: 0 0 1vw 0 #999;
+            
+                                img{
+                                    width: 9%;
+                                }
+
+                                .title{
+                                    display: flex;
+                                    justify-content: space-between;
+
+                                    span{
+                                        font-size: 4vw;
+                                        font-weight: 600;
+                                    }
+
+                                    img{
+                                        width: 10%;
+                                    }
+                                }
+
+                                p{
+                                    font-size: 3vw;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

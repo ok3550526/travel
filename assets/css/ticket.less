@@ -1,0 +1,157 @@
+// header
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #e5e5e5;
+    .headericon{
+        padding: 4vw;
+        
+    }
+
+    .title{
+        position: relative;
+        width: 66%;
+
+        h6{
+            font-size: 6.5vw;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+
+        }
+    }
+}
+
+// main
+.main{
+    width: 100%;
+    padding: 5vw 0 17vw;
+
+    .container{
+        padding: 0;
+        width: 80%;
+        border-radius: 10px;
+        position: relative;
+        background: radial-gradient(circle at left bottom, transparent 3vw, #fff 0) top left/ 51% 27.5% no-repeat, radial-gradient(circle at right bottom, transparent 3vw, #fff 0) top right/ 51% 27.5% no-repeat, radial-gradient(circle at left top, transparent 3vw, #fff 0) bottom left / 51% 73% no-repeat, radial-gradient(circle at right top, transparent 3vw, #fff 0) bottom right / 51% 73% no-repeat;
+        filter: drop-shadow(0px 0px 6px rgba(0,0,0,.3));
+
+        .mainbox{
+            width: 100%;
+            top: 10vw;
+            padding: 10vw 3vw 0vw;
+
+
+            .top{
+                width: 100%;
+                text-align: center;
+
+                .fromto{
+                    width: 90%;
+                    margin: 0 auto;
+                    display: flex;
+                    justify-content: space-between;
+
+                    .left,.right{
+                        h6{
+                            font-size: 4vw;
+                            font-weight: 500;
+                        }
+    
+                        span{
+                            font-size: 5vw;
+                            font-weight: bold;
+                        }
+                    }
+
+                    img{
+                        width: 78%;
+                        margin-top: 5vw;
+                    }
+                }
+
+                .airport{
+                    width: 87%;
+                    margin: 0 auto;
+                    display: flex;
+                    justify-content: space-between;
+                    font-size: 3vw;
+                    color: #b3b3b3;
+                    padding-top: 2vw;
+                    border-bottom: 1px dashed #b3b3b3;
+                    padding-bottom: 5vw;
+                }
+            }
+
+            .bottom{
+                width: 87%;
+                margin: 0 auto;
+
+                .official{
+                    display: flex;
+                    justify-content: space-between;
+                    padding-top: 10vw;
+                    color: #9c9c9c;
+                    font-size: 4vw;
+                    border-bottom: 1px solid #f0f0f0;
+                    padding-bottom: 2vw;
+
+                    p{
+                        font-size: 4vw;
+                        color: #000;
+                    }
+                }
+
+                .worth{
+                    display: flex;
+                    justify-content: space-between;
+                    padding-top: 5vw;
+                    border-bottom: 1px solid #f0f0f0;
+                    padding-bottom: 5vw;
+
+                    .img{
+                        width: 58%;
+                        margin-right: 2vw;
+                    }
+
+                    .show{
+                        width: 93%;
+
+                        h6,span{
+                            font-size: 5vw;
+                            font-weight: 600;
+                        }
+
+                        span{
+                            display: inline-block;
+                            color: #f4a71a;
+                            padding-top: 3vw;
+                        }
+                        
+                    }
+
+
+                }
+
+                .message{
+                    text-align: center;
+                    padding-bottom: 10vw;
+                    .item{
+                        display: flex;
+                        justify-content: space-between;
+                        padding-top: 5vw;
+                        font-size: 4vw;
+                        color: #000;
+                        font-weight: 600;
+
+                        ul:first-child{
+                            color: #5d5d5e;
+                            font-weight: none;
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
+}
